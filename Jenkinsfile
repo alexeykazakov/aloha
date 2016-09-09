@@ -1,7 +1,7 @@
 node {
     stage 'Git checkout'
     echo 'Checking out git repository'
-    git url: 'https://github.com/alexeykazakov/aloha.git'
+    git url: 'https://github.com/alexeykazakov/aloha'
 
     stage 'Build project with Maven'
     echo 'Building project'
